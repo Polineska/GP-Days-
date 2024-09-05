@@ -75,7 +75,7 @@ a:active {
     text-decoration-thickness: 0.5px !important;
     text-underline-offset: 7px;
 }
-.nav_2 a:focus-visible {
+.nav_1 a:focus-visible {
     outline: 2px solid;
     outline-offset: 4px;
   }
