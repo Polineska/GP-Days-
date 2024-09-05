@@ -1,104 +1,138 @@
-
-  .home-page {
+.home-page {
     background-color: #F6F6F6;
-  }
-  .container {
-    width: 70%;
-  }
- 
+    padding: 5rem 0;
+}
 
-  /* Навигация */
-  .navigation_1 {
+.container {
+    width: 70%;
+}
+
+
+/* Навигация */
+.navigation_1 {
     background-color: #353C4D;
     font-family: 'Montserrat', sans-serif;
     padding-top: 2px;
-  }
-  .container-fluid {
+}
+
+.container-fluid {
     justify-content: space-between;
-  }
-  .current {
+}
+
+.current {
     text-decoration: underline !important;
     text-decoration-thickness: 0.3px !important;
     text-underline-offset: 7px;
-  }
-  .sticky-top {
+}
+
+.sticky-top {
     position: fixed;
     top: 0;
     width: 100%;
-  }
-  .navbar-toggler {
+}
+
+.navbar-toggler {
     margin-top: 2px;
     margin-bottom: 1px;
     border: none;
     background: transparent;
-  }
-  .nav-link-1 {
-    color:#f2f2f2 !important;
-  }
-  .menu {
+}
+
+.nav-link-1 {
+    color: #f2f2f2 !important;
+}
+
+.menu {
     background: transparent;
     border: none;
-  }
-  .dropdown-toggle {
+}
+
+.dropdown-toggle {
     background-color: #353C4D;
-  }
-  .dropdown-menu a:hover, a:focus, a:active {
+}
+
+.dropdown-menu a:hover,
+a:focus,
+a:active {
     background: transparent;
-  }
-  .dropdown-item {
-    color:#f2f2f2;
-  }
-  .navbar-nav li {
+}
+
+.dropdown-item {
+    color: #f2f2f2;
+}
+
+.navbar-nav li {
     padding-right: 20px;
-  }
-  .nav_1 li {
-    font-size: 0.9em; 
-  }
-  .nav_1 a:hover, a:active {
+}
+
+.nav_1 li {
+    font-size: 0.9em;
+}
+
+.nav_1 a:hover,
+a:active {
     text-decoration: underline !important;
     text-decoration-thickness: 0.5px !important;
     text-underline-offset: 7px;
+}
+.nav_1 a:focus-visible {
+    outline: 2px solid;
+    outline-offset: 4px;
   }
-  .navigation_2 {
+
+.navigation_2 {
     background-color: #ffffff !important;
-  }
+}
+
 .logo {
     padding-left: 30px;
 }
+
 .nav-link-2 {
-    color:#101010 !important;
+    color: #101010 !important;
     font-weight: 500 !important;
     font-size: 1em;
 }
+
 .header-logo {
-    height: 90px;
+    height: 75px;
     align-items: center;
     flex-direction: row;
 }
+
 .navbar-logo {
     text-decoration: none !important;
-    color:#101010  !important;
+    color: #101010 !important;
 }
+
 .city-name {
     font-size: 1.3em;
     font-weight: 600;
-    vertical-align: middle; 
+    vertical-align: middle;
 }
+
 .city-name span {
     font-size: 0.4em;
     font-weight: 400;
     margin-top: 0.1px;
 }
+
 .nav_2 {
     line-height: 0.5;
 }
-.nav_2 a:hover, a:active {
+
+.nav_2 a:hover,
+a:active {
     color: #91261d !important;
     text-decoration: underline !important;
     text-decoration-thickness: 0.5px !important;
     text-underline-offset: 7px;
 }
-
+.nav_2 a:focus-visible {
+    outline: 2px solid;
+    outline-offset: 4px;
+  }
+  
 
 
 
@@ -139,23 +173,22 @@
 }
 
 
-.h_news{
+.h_news {
     text-decoration: none;
     color: black;
 }
 
-.h_li{
+.h_li {
     text-align: right;
 }
 
-.h_navbar{
-    background-color: #F6F6F6;
-}
-
-.p-3{
+.p-3 {
     text-align: center;
 }
 
+.navbar-right {
+    flex-grow: 0 !important;
+}
 
 
 
@@ -175,16 +208,23 @@ footer.footer {
     color: #ccc;
     text-decoration: none;
 }
+
 .footer {
-    background-color: #f5f5f5; /* Светлый серый фон */
-    padding: 40px 0; /* Добавляем отступы сверху и снизу */
+    background-color: #f5f5f5;
+    /* Светлый серый фон */
+    padding: 40px 0;
+    /* Добавляем отступы сверху и снизу */
 }
 
 .footer-main {
-    max-width: 1200px; /* Ограничиваем ширину содержимого */
-    margin: 0 auto; /* Центрируем содержимое по горизонтали */
-    padding: 0 20px; /* Добавляем небольшие отступы по бокам */
+    max-width: 1200px;
+    /* Ограничиваем ширину содержимого */
+    margin: 0 auto;
+    /* Центрируем содержимое по горизонтали */
+    padding: 3rem 20px;
+    /* Добавляем небольшие отступы по бокам */
 }
+
 .footer-menu__title {
     font-weight: bold;
     margin-bottom: 1rem;
@@ -200,37 +240,40 @@ footer.footer {
 }
 
 .footer-menu__link:hover {
-    color: #91261d; /* Цвет ссылок при наведении */
+    color: #91261d;
+    /* Цвет ссылок при наведении */
 }
 
 .footer-info-row__text {
-    color: #333333; 
+    color: #333333;
 }
 
 .footer-info-row__text a {
-    color: inherit; 
-    text-decoration: none; 
+    color: inherit;
+    text-decoration: none;
 }
 
 .footer-info-row__text strong {
-    font-weight: bold; 
+    font-weight: bold;
 }
 
 .footer-info-row__text span {
-    font-weight: normal; 
+    font-weight: normal;
 }
 
 .footer-logo__description {
-    color: #7a7a7a; /* Цвет ссылки "Официальный сайт" */
+    color: #7a7a7a;
+    /* Цвет ссылки "Официальный сайт" */
 }
 
 .footer-logo__description a {
     color: inherit;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 .footer-logo__description a:hover {
-    color: #91261d; /* Цвет ссылки при наведении */
+    color: #91261d;
+    /* Цвет ссылки при наведении */
 }
 
 .footer-copyright {
@@ -248,9 +291,11 @@ footer.footer {
     color: #91261d;
     text-decoration: none;
 }
+
 .footer-info-row__ico .fas.fa-phone-alt {
     font-size: 1.2rem;
 }
+
 .footer-info-row__ico {
     margin-right: 0.5rem;
 }
@@ -259,19 +304,24 @@ footer.footer {
     font-size: 1.2rem;
     vertical-align: middle;
 }
+
 .footer-info-row__ico .bi-geo-alt {
     font-size: 1.2rem;
     vertical-align: middle;
     margin-right: 0.5rem;
 }
+
 .footer-info-row__ico .bi-exclamation-circle {
     font-size: 1.2rem;
     vertical-align: middle;
     margin-right: 0.5rem;
 }
+
 .main-container {
-    background-color: #F6F6F6; /* Установка белого фона */
+    background-color: #F6F6F6;
+    /* Установка белого фона */
 }
+
 .footer-info-row {
     display: flex;
     align-items: center;
@@ -285,15 +335,16 @@ footer.footer {
 .footer-info-row__ico .bi-exclamation-circle {
     font-size: 1.2rem;
     vertical-align: middle;
-    color: #91261d ;
+    color: #91261d;
 }
+
 .footer-menu {
-    list-style-type: none; 
-    padding: 0; 
+    list-style-type: none;
+    padding: 0;
 }
 
 .footer-menu__item {
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
 
 
@@ -309,16 +360,20 @@ footer.footer {
     font-size: 16px;
     font-weight: bold;
 }
+
 .footer-info {
     display: flex;
     flex-direction: column;
-    gap: 10px; /* Вертикальное расстояние между элементами */
+    gap: 10px;
+    /* Вертикальное расстояние между элементами */
 }
 
 
 .footer-info__item {
-    margin-bottom: 10px; /* Альтернативный способ добавить отступ */
+    margin-bottom: 10px;
+    /* Альтернативный способ добавить отступ */
 }
+
 .col-4 {
     display: flex;
     justify-content: space-between;
@@ -333,4 +388,3 @@ footer.footer {
     font-size: 1.2rem;
     color: #090909;
 }
-
