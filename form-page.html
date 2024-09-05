@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="styles/style_form-page.css">
 
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
   <!-- Подключение библиотеки шрифтов Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -239,6 +241,10 @@
               </label>
             </div>
 
+            <div class="mb-3">
+              <div class="g-recaptcha" data-sitekey="6LfjwTcqAAAAAIi9_id0P7PUXWwE-xmmvOrHd4C_"></div>
+            </div>
+
             <button type="submit" class="btn btn-primary">Отправить</button>
           </form>
         </div>
@@ -429,6 +435,21 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>
+
+    <script>
+      document.querySelector('form').addEventListener('submit', function(event) {
+        event.preventDefault();
+  
+        var response = grecaptcha.getResponse();
+        if (response.length === 0) {
+          alert('Пожалуйста, подтвердите, что вы не робот.');
+          return;
+        }
+  
+        // Продолжить отправку формы
+        this.submit();
+      });
+    </script>
 
 
 </body>
