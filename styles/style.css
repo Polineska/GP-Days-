@@ -2,7 +2,7 @@
     background-color: #F6F6F6;
   }
   .container {
-    width: 1250 px;
+    width: 70%;
   }
  
 
@@ -53,6 +53,11 @@
   .nav_1 li {
     font-size: 0.9em; 
   }
+  .nav_1 a:hover, a:active {
+    text-decoration: underline !important;
+    text-decoration-thickness: 0.5px !important;
+    text-underline-offset: 7px;
+  }
   .navigation_2 {
     background-color: #ffffff !important;
   }
@@ -60,7 +65,7 @@
     padding-left: 30px;
 }
 .nav-link-2 {
-    color:#101010  !important;
+    color:#101010 !important;
     font-weight: 500 !important;
     font-size: 1em;
 }
@@ -86,3 +91,10 @@
 .nav_2 {
     line-height: 0.5;
 }
+.nav_2 a:hover, a:active {
+    color: #91261d !important;
+    text-decoration: underline !important;
+    text-decoration-thickness: 0.5px !important;
+    text-underline-offset: 7px;
+}
+
