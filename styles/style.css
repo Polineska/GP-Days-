@@ -1,0 +1,53 @@
+/*Содержание страницы*/
+.col_1 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.rectangle {
+    width: 130%;
+    height: 50%;
+    border: 1px solid;
+    margin: auto;
+    background: #ff0000;
+}
+
+.text_center_middle {
+    color: #ffffff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+}
+
+
+.h_news{
+    text-decoration: none;
+    color: black;
+}
+
+.h_li{
+    text-align: right;
+}
+
+.h_navbar{
+    background-color: #F6F6F6;
+}
+
+.p-3{
+    text-align: center;
+}
