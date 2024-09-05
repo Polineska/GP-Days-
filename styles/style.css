@@ -200,24 +200,24 @@ footer.footer {
 }
 
 .footer-menu__link:hover {
-    color: #999999; /* Цвет ссылок при наведении */
+    color: #91261d; /* Цвет ссылок при наведении */
 }
 
 .footer-info-row__text {
-    color: #333333; /* Более темный серый цвет для телефонов */
+    color: #333333; 
 }
 
 .footer-info-row__text a {
-    color: inherit; /* Наследуем цвет от родителя */
-    text-decoration: none; /* Убираем подчеркивание ссылок */
+    color: inherit; 
+    text-decoration: none; 
 }
 
 .footer-info-row__text strong {
-    font-weight: bold; /* Делаем номера телефонов жирными */
+    font-weight: bold; 
 }
 
 .footer-info-row__text span {
-    font-weight: normal; /* Для текста "/ для граждан" и "/ для организаций" */
+    font-weight: normal; 
 }
 
 .footer-logo__description {
@@ -225,12 +225,12 @@ footer.footer {
 }
 
 .footer-logo__description a {
-    color: inherit; /* Наследуем цвет от родителя */
-    text-decoration: none; /* Убираем подчеркивание ссылки */
+    color: inherit;
+    text-decoration: none; 
 }
 
 .footer-logo__description a:hover {
-    color: #999999; /* Цвет ссылки при наведении */
+    color: #91261d; /* Цвет ссылки при наведении */
 }
 
 .footer-copyright {
@@ -245,7 +245,7 @@ footer.footer {
 }
 
 .footer-social__link:hover {
-    color: #ccc;
+    color: #91261d;
     text-decoration: none;
 }
 .footer-info-row__ico .fas.fa-phone-alt {
