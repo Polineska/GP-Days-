@@ -156,3 +156,181 @@
     text-align: center;
 }
 
+
+
+
+/* Подвал сайта */
+
+footer.footer {
+    background-color: #F6F6F6;
+    color: #F6F6F6;
+}
+
+.footer a {
+    color: #F6F6F6;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #ccc;
+    text-decoration: none;
+}
+.footer {
+    background-color: #f5f5f5; /* Светлый серый фон */
+    padding: 40px 0; /* Добавляем отступы сверху и снизу */
+}
+
+.footer-main {
+    max-width: 1200px; /* Ограничиваем ширину содержимого */
+    margin: 0 auto; /* Центрируем содержимое по горизонтали */
+    padding: 0 20px; /* Добавляем небольшие отступы по бокам */
+}
+.footer-menu__title {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.footer-menu__item {
+    margin-bottom: 0.5rem;
+}
+
+.footer-menu__link {
+    color: #7a7a7a;
+    text-decoration: none;
+}
+
+.footer-menu__link:hover {
+    color: #999999; /* Цвет ссылок при наведении */
+}
+
+.footer-info-row__text {
+    color: #333333; /* Более темный серый цвет для телефонов */
+}
+
+.footer-info-row__text a {
+    color: inherit; /* Наследуем цвет от родителя */
+    text-decoration: none; /* Убираем подчеркивание ссылок */
+}
+
+.footer-info-row__text strong {
+    font-weight: bold; /* Делаем номера телефонов жирными */
+}
+
+.footer-info-row__text span {
+    font-weight: normal; /* Для текста "/ для граждан" и "/ для организаций" */
+}
+
+.footer-logo__description {
+    color: #7a7a7a; /* Цвет ссылки "Официальный сайт" */
+}
+
+.footer-logo__description a {
+    color: inherit; /* Наследуем цвет от родителя */
+    text-decoration: none; /* Убираем подчеркивание ссылки */
+}
+
+.footer-logo__description a:hover {
+    color: #999999; /* Цвет ссылки при наведении */
+}
+
+.footer-copyright {
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+.footer-social__link {
+    display: inline-block;
+    margin-right: 1rem;
+    color: #fff;
+}
+
+.footer-social__link:hover {
+    color: #ccc;
+    text-decoration: none;
+}
+.footer-info-row__ico .fas.fa-phone-alt {
+    font-size: 1.2rem;
+}
+.footer-info-row__ico {
+    margin-right: 0.5rem;
+}
+
+.footer-info-row__ico .bi {
+    font-size: 1.2rem;
+    vertical-align: middle;
+}
+.footer-info-row__ico .bi-geo-alt {
+    font-size: 1.2rem;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+.footer-info-row__ico .bi-exclamation-circle {
+    font-size: 1.2rem;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+.main-container {
+    background-color: #F6F6F6; /* Установка белого фона */
+}
+.footer-info-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.footer-info-row__ico {
+    margin-right: 0.5rem;
+}
+
+.footer-info-row__ico .bi-exclamation-circle {
+    font-size: 1.2rem;
+    vertical-align: middle;
+    color: #91261d ;
+}
+.footer-menu {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.footer-menu__item {
+    margin-bottom: 10px; 
+}
+
+
+.footer-logo__title {
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+
+.footer-menu__title {
+    font-family: 'Verdana', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Вертикальное расстояние между элементами */
+}
+
+
+.footer-info__item {
+    margin-bottom: 10px; /* Альтернативный способ добавить отступ */
+}
+.col-4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-block {
+    flex: 1;
+}
+
+.logo-footer {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #090909;
+}
+
