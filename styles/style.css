@@ -111,3 +111,11 @@ footer.footer {
 .footer-info__item {
     margin-bottom: 10px; /* Альтернативный способ добавить отступ */
 }
+.col-4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-block {
+    flex: 1;
+}
