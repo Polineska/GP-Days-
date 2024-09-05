@@ -1,6 +1,6 @@
 .home-page {
     background-color: #F6F6F6;
-    padding: 2rem 0;
+    padding: 5rem 0;
 }
 
 .container {
@@ -75,6 +75,10 @@ a:active {
     text-decoration-thickness: 0.5px !important;
     text-underline-offset: 7px;
 }
+.nav_2 a:focus-visible {
+    outline: 2px solid;
+    outline-offset: 4px;
+  }
 
 .navigation_2 {
     background-color: #ffffff !important;
@@ -124,7 +128,11 @@ a:active {
     text-decoration-thickness: 0.5px !important;
     text-underline-offset: 7px;
 }
-
+.nav_2 a:focus-visible {
+    outline: 2px solid;
+    outline-offset: 4px;
+  }
+  
 
 
 
@@ -213,7 +221,7 @@ footer.footer {
     /* Ограничиваем ширину содержимого */
     margin: 0 auto;
     /* Центрируем содержимое по горизонтали */
-    padding: 0 20px;
+    padding: 3rem 20px;
     /* Добавляем небольшие отступы по бокам */
 }
 
