@@ -141,6 +141,16 @@ a:active {
     position: relative;
     text-align: center;
     color: white;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.col_2 {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    transition: 1s;
+    display: block;
 }
 
 .bottom-left {
@@ -190,7 +200,23 @@ a:active {
     flex-grow: 0 !important;
 }
 
+.active:hover{
+    color: #090909;
+    transform: scale(1.05);
+}
 
+.col_1 img {
+    transition: 1s; 
+    display: block;
+}
+
+.col_1 img:hover {
+    transform: scale(1.05);
+}
+
+.col_2:hover {
+    transform: scale(1.05);
+}
 
 /* Подвал сайта */
 
