@@ -419,3 +419,8 @@ footer.footer {
     font-size: 1.2rem;
     color: #090909;
 }
+
+.right-panel-fix {
+    display: none;
+    visibility: hidden;
+  }
