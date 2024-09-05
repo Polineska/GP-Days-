@@ -29,6 +29,7 @@
 
 
   <!-- Навигация -->
+  <!-- Навигация 1 -->
   <nav class="navbar navbar-expand-lg sticky-top">
 
   </nav>
@@ -38,25 +39,60 @@
     <div class="container-lg">
       <div class="container">
         <div class="row">
-          <div id="col_1" class="col">
+          <div class="col col_1">
             <a href="https://xn--b1acdfjbh2acclca1a.xn--p1ai/news/26085">
               <img class="img-fluid" src="images/img_1.jpg">
               <div class="bottom-left">
                 <h5>Ход подготовки города к отопительному сезону<br>проверил глава Нижнего Новгорода Юрий<br>Шалабаев
                 </h5>
               </div>
-              <div class="top-left">
+              <!--<div class="top-left">
                 <div class="rectangle text_center_middle">Главное о городе</div>
-              </div>
+              </div>-->
             </a>
           </div>
           <div class="col">
-            Тут должна быть карусель
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href="https://xn--b1acdfjbh2acclca1a.xn--p1ai/news/26083"><img src="images/img_5.jpg"
+                      class="d-block w-100 img-flui" alt="Подводный субботник: день нашего озера"></a>
+                </div>
+                <div class="carousel-item">
+                  <a href="https://xn--b1acdfjbh2acclca1a.xn--p1ai/news/26092"><img src="images/img_6.jpg"
+                      class="d-block w-100 img-fluid"
+                      alt="Проект озеленения территории по пр. Гагарина от ул. Лебедева до ул. 40 лет Победы"></a>
+                </div>
+                <div class="carousel-item">
+                  <a href="https://xn--b1acdfjbh2acclca1a.xn--p1ai/news/26070"><img src="images/img_7.jpg"
+                      class="d-block w-100 img-flui"
+                      alt="Джазовый фестиваль «Осень в Швейцарии. Золотая коллекция» откроется в городском парке 6 сентября"></a>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Предыдущий</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Следующий</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
       <div class="row">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light h_navbar">
           <div class="container-fluid">
             <h5 class="navbar-brand">Пресс-центр</h5>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -125,16 +161,19 @@
       <div class="container px-4">
         <div class="row gx-5">
           <div class="col">
-            <div class="p-3 border bg-light">Платформа "Лобачевский"</div>
+            <a href="https://lbch.ru/" class="h_news">
+              <div class="p-3 border bg-light">Платформа "Лобачевский"</div>
+            </a>
           </div>
           <div class="col">
-            <div class="p-3 border bg-light">Туристический портал города Нижнего Новгорода</div>
+            <a href="https://nn-grad.ru/" class="h_news">
+              <div class="p-3 border bg-light">Туристический портал города Нижнего Новгорода</div>
+            </a>
           </div>
         </div>
       </div>
     </div>
     </div>
-
   </main>
 
 

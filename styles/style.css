@@ -1,4 +1,5 @@
-#col_1 {
+/*Содержание страницы*/
+.col_1 {
     position: relative;
     text-align: center;
     color: white;
@@ -41,4 +42,12 @@
 
 .h_li{
     text-align: right;
+}
+
+.h_navbar{
+    background-color: #F6F6F6;
+}
+
+.p-3{
+    text-align: center;
 }
