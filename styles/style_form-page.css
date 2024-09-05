@@ -1,0 +1,19 @@
+
+.information-block {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.information-block h3 {
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.information-block p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
