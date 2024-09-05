@@ -51,3 +51,7 @@
 .p-3{
     text-align: center;
 }
+
+.navbar-right{
+    flex-grow: 0 !important;
+}
