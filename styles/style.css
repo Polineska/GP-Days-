@@ -12,7 +12,16 @@ footer.footer {
     color: #ccc;
     text-decoration: none;
 }
+.footer {
+    background-color: #f5f5f5; /* Светлый серый фон */
+    padding: 40px 0; /* Добавляем отступы сверху и снизу */
+}
 
+.footer-main {
+    max-width: 1200px; /* Ограничиваем ширину содержимого */
+    margin: 0 auto; /* Центрируем содержимое по горизонтали */
+    padding: 0 20px; /* Добавляем небольшие отступы по бокам */
+}
 .footer-menu__title {
     font-weight: bold;
     margin-bottom: 1rem;
@@ -23,7 +32,42 @@ footer.footer {
 }
 
 .footer-menu__link {
+    color: #7a7a7a;
     text-decoration: none;
+}
+
+.footer-menu__link:hover {
+    color: #999999; /* Цвет ссылок при наведении */
+}
+
+.footer-info-row__text {
+    color: #333333; /* Более темный серый цвет для телефонов */
+}
+
+.footer-info-row__text a {
+    color: inherit; /* Наследуем цвет от родителя */
+    text-decoration: none; /* Убираем подчеркивание ссылок */
+}
+
+.footer-info-row__text strong {
+    font-weight: bold; /* Делаем номера телефонов жирными */
+}
+
+.footer-info-row__text span {
+    font-weight: normal; /* Для текста "/ для граждан" и "/ для организаций" */
+}
+
+.footer-logo__description {
+    color: #7a7a7a; /* Цвет ссылки "Официальный сайт" */
+}
+
+.footer-logo__description a {
+    color: inherit; /* Наследуем цвет от родителя */
+    text-decoration: none; /* Убираем подчеркивание ссылки */
+}
+
+.footer-logo__description a:hover {
+    color: #999999; /* Цвет ссылки при наведении */
 }
 
 .footer-copyright {
@@ -108,6 +152,7 @@ footer.footer {
     gap: 10px; /* Вертикальное расстояние между элементами */
 }
 
+
 .footer-info__item {
     margin-bottom: 10px; /* Альтернативный способ добавить отступ */
 }
@@ -118,4 +163,10 @@ footer.footer {
 
 .footer-block {
     flex: 1;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #090909;
 }
