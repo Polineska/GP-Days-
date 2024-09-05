@@ -1,3 +1,166 @@
+
+  .home-page {
+    background-color: #F6F6F6;
+  }
+  .container {
+    width: 70%;
+  }
+ 
+
+  /* Навигация */
+  .navigation_1 {
+    background-color: #353C4D;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 2px;
+  }
+  .container-fluid {
+    justify-content: space-between;
+  }
+  .current {
+    text-decoration: underline !important;
+    text-decoration-thickness: 0.3px !important;
+    text-underline-offset: 7px;
+  }
+  .sticky-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .navbar-toggler {
+    margin-top: 2px;
+    margin-bottom: 1px;
+    border: none;
+    background: transparent;
+  }
+  .nav-link-1 {
+    color:#f2f2f2 !important;
+  }
+  .menu {
+    background: transparent;
+    border: none;
+  }
+  .dropdown-toggle {
+    background-color: #353C4D;
+  }
+  .dropdown-menu a:hover, a:focus, a:active {
+    background: transparent;
+  }
+  .dropdown-item {
+    color:#f2f2f2;
+  }
+  .navbar-nav li {
+    padding-right: 20px;
+  }
+  .nav_1 li {
+    font-size: 0.9em; 
+  }
+  .nav_1 a:hover, a:active {
+    text-decoration: underline !important;
+    text-decoration-thickness: 0.5px !important;
+    text-underline-offset: 7px;
+  }
+  .navigation_2 {
+    background-color: #ffffff !important;
+  }
+.logo {
+    padding-left: 30px;
+}
+.nav-link-2 {
+    color:#101010 !important;
+    font-weight: 500 !important;
+    font-size: 1em;
+}
+.header-logo {
+    height: 90px;
+    align-items: center;
+    flex-direction: row;
+}
+.navbar-logo {
+    text-decoration: none !important;
+    color:#101010  !important;
+}
+.city-name {
+    font-size: 1.3em;
+    font-weight: 600;
+    vertical-align: middle; 
+}
+.city-name span {
+    font-size: 0.4em;
+    font-weight: 400;
+    margin-top: 0.1px;
+}
+.nav_2 {
+    line-height: 0.5;
+}
+.nav_2 a:hover, a:active {
+    color: #91261d !important;
+    text-decoration: underline !important;
+    text-decoration-thickness: 0.5px !important;
+    text-underline-offset: 7px;
+}
+
+
+
+
+/*Содержание страницы*/
+.col_1 {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.rectangle {
+    width: 130%;
+    height: 50%;
+    border: 1px solid;
+    margin: auto;
+    background: #ff0000;
+}
+
+.text_center_middle {
+    color: #ffffff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+}
+
+
+.h_news{
+    text-decoration: none;
+    color: black;
+}
+
+.h_li{
+    text-align: right;
+}
+
+.h_navbar{
+    background-color: #F6F6F6;
+}
+
+.p-3{
+    text-align: center;
+}
+
+
+
+
+/* Подвал сайта */
+
 footer.footer {
     background-color: #F6F6F6;
     color: #F6F6F6;
@@ -165,8 +328,9 @@ footer.footer {
     flex: 1;
 }
 
-.logo {
+.logo-footer {
     font-weight: bold;
     font-size: 1.2rem;
     color: #090909;
 }
+
