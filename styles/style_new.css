@@ -35,3 +35,13 @@
 .theme-box__text {
     text-decoration: none;
 }
+
+.h_news {
+    text-decoration: none;
+    color: black;
+}
+
+.active:hover{
+    color: #090909;
+    transform: scale(1.05);
+}
