@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Подключение CSS-файла -->
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/style_form-page.css">
+
+  <!-- Подключение библиотеки шрифтов Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=Montserrat&family=Righteous&display=swap"
+    rel="stylesheet">
+
+  <!-- Подключение стилей Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+  <title>GP_Days</title>
+
+</head>
+
+
+
+<body>
+
+    <!-- Навигация 1 -->
+    <nav class="navbar navbar-expand-lg sticky-top navigation_1">
+        <div class="container-fluid">
+
+          <!-- Иконка меню для адаптивности -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="menu ml-auto"><img src="img/menu.png" alt="Кнопка меню навигации"></span>
+          </button>
+
+            <!-- Пункты навигации 1 -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class = "container">
+
+              <ul class="navbar-nav nav_1 ms-auto mb-2 mb-lg-0 me-auto nav-fill">
+              <li class="nav-item">
+                <a class="nav-link nav-link-1" aria-current="page" href="#">Каталог сайтов</a>
+              </li>
+
+                <li class="nav-item">
+                  <a class="nav-link nav-link-1" aria-current="page" href="#">Противодействие коррупции</a>
+                </li>
+              
+                <li class="nav-item dropdown">
+                  <a class="nav-link nav-link-1 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                     aria-expanded="false">
+                    Русский
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Русский</a></li>
+                    <li><a class="dropdown-item" href="#">English</a></li>
+                    <li><a class="dropdown-item" href="#">Deutsch</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link nav-link-1" href="#">Найти</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link nav-link-1" href="#">Личный кабинет</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-link-1 current" href="#">Подать обращение</a>
+                </li>
+              </ul>
+            </div>
+              
+          </div>
+
+        </div>
+    </nav>
+
+
+    <!-- Навигация 2 -->
+    <nav class="navbar navbar-expand-lg sticky-top navigation_2">
+        <div class="container-fluid container">
+
+          <!-- Иконка меню для адаптивности -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent-2"
+          aria-controls="navbarSupportedContent-2" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="menu ml-auto"><img src="img/menu.png" alt="Кнопка меню навигации"></span>
+          </button>
+
+          <div class="header-logo">
+            <a class="navbar-logo" aria-current="page" href="index.html">
+                <img class="logo d-inline-block align-text-top" src="img/emblem.svg" alt="Перейти на главную страницу сайта">
+            </a> 
+          </div>
+          
+          <!-- Пункты навигации 2 -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent-2">
+
+              <ul class="navbar-nav nav_2 ms-auto mb-2 mb-lg-0 me-auto">
+                
+                <li class="nav-item" style="float:left;">
+                  <a class="navbar-brand" href="index.html">
+                    <span class="city-name">
+                    Нижний Новгород <br>
+                    <span class="site-name">Официальный сайт</span></span>
+                  </a>  
+
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link nav-link-2" href="#">Муниципалитет</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-link-2" href="#">О городе</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-link-2" href="#">Районы</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-link-2" href="#">Жителям</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-link-2" href="#">Бизнесу</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-link-2" href="#">Документы</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-link-2" href="#">Пресс-центр</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link nav-link-2" href="#">Приемная</a>
+                </li>
+
+              </ul>
+
+          </div>
+        </div>
+    </nav>
+
+
+    <main class="home-page">
+      <div class="container-lg">
+        <div class="row">
+          <div class="col-7">
+            <div class="information-block">
+              <h1>Ход подготовки города к отопительному сезону проверил глава Нижнего Новгорода Юрий Шалабаев</h1>
+              
+              <p>Глава города Юрий Шалабаев оценил ход подготовки к отопительному сезону, проинспектировав место производства работ по замене тепловых сетей на ул. Совнаркомовской и бульваре Мира. Вместе с мэром на объекте побывал руководитель АО «Теплоэнерго» Дмитрий Сивохин. Об итогах совещания  <strong>Юрий Шалабаев</strong>&nbsp;<a href="https://t.me/yuriy_shalabaev/3833">сообщил</a>  в своих социальных сетях.</p>
+              <p>Глава города рассказал, что в ходе инспекции проверил, как выполняются поручения по ремонту дополнительно включенных в летнюю ремонтную кампанию участков, на которые в минувший сезон поступали жалобы от жителей по отоплению.</p>
+              <p>«Вместе с руководителем «Теплоэнерго» Дмитрием Сивохиным выехали на улицу Совнаркомовская. Объект здесь сложный: он включает чуть более километра трубопроводов, замене подлежат трубы десяти разных диаметров – от 40 до 300 мм, и при этом они проложены разными способами, включая даже техподполье самих домов. Жители продолжают получать горячую воду в полном объёме - были проложены временные трассы», - заявил глава города.</p>
+            </div>
+          </div>
+          <!-- <div class="col-4></div> -->
+        </div>
+      
+      </div>
+
+        
+    </main>
+<!-- page content -->
+
+<section class="section section--border-top">
+    <div class="container">
+        <hr class="section-border"/>
+        <h3 class="page-sub-head text-dark">Материалы по теме</h3>
+        <div class="news-container">
+            <div class="row">
+                <div class="col">
+                    <div class="theme-box__container">
+                        <a href="/news/26002" class="theme-box__link bg-block-sm bg-base" aria-label="Пробные топки на объектах теплоснабжения завершат в Нижнем Новгороде до 15 сентября">
+                            <div class="theme-box__highlight"></div>
+                            <p><span class="news-date text-black">28 августа 2024 года</span></p>
+                            <p class="text-dark theme-box__text">Пробные топки на объектах теплоснабжения завершат в Нижнем Новгороде до 15 сентября</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="theme-box__container">
+                        <a href="/news/25975" class="theme-box__link bg-block-sm bg-base" aria-label="Внутридворовый проезд, тротуар и входные группы отремонтировали у дома №2 по Мещерскому бульвару">
+                            <div class="theme-box__highlight"></div>
+                            <p><span class="news-date text-black">27 августа 2024 года</span></p>
+                            <p class="text-dark theme-box__text">Внутридворовый проезд, тротуар и входные группы отремонтировали у дома №2 по Мещерскому бульвару</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+        <!-- page content end -->
+
+
+    <!-- Контакты -->
+
+    <style>
+        .right-panel-fix {display:none;visibility: hidden;}
+    </style>
+     
+
+    <footer class="footer-main">
+      <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="footer-info">
+                        <a href="/" class="footer-logo d-flex align-items-center text-white text-decoration-none">
+                            <div class="footer-logo__image">
+                                <img src="/uploads/storage/14/1e/d4c626dfe7bc8a85c0eedbe71ae285f9aeca5661.svg" alt="">
+                            </div>
+                            <div class="footer-logo-info">
+                                <div class="header-logo">
+                                    <a class="navbar-logo" aria-current="page" href="index.html">
+                                        <img class="logo-footer d-inline-block align-text-top" src="img/emblem.svg" alt="Перейти на главную страницу сайта">
+                                    </a> 
+                                  </div>
+                                <div class="footer-logo__title">Нижний Новгород<br /></div>
+                                <div class="footer-logo__description"><a href="https://admgor.nnov.ru/" target="_blank">Официальный сайт</a>
+                                </div>
+                            </div>
+                        </a>
+                        <div class="footer-info-row">
+                            <div class="footer-info-row__ico">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                                </svg>
+                            </div>
+                            <div class="footer-info-row__text">
+                                <a href="tel:+7 (831) 467-10-01"><strong>+7 (831) 467-10-01</strong>&nbsp;<span>/ для граждан</span></a><br>
+                                <a href="tel:+7 (831) 467-10-75"><strong>+7 (831) 467-10-75</strong>&nbsp;<span>/ для организаций</span></a><br>
+                            </div>
+                        </div>
+                        <div class="footer-info-row">
+                            <div class="footer-info-row__ico">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                                    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                                  </svg>
+                            </div>
+                            <div class="footer-info-row__text">
+                                <strong>603082, г. Нижний Новгород, Кремль, 5</strong>
+                            </div>
+                        </div>
+                        <div class="footer-info-row">
+                            <div class="footer-info-row__ico">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                                    <path d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0M7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0z"/>
+                                </svg>
+                            </div>
+                            <div class="footer-info-row__text">
+                                Нашли опечатку?<br>
+                                Выделите текст и нажмите Ctrl+Enter
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="footer-block">
+                        <div class="footer-menu__title">Основные разделы</div>
+                        <ul class="footer-menu">
+                            <li class="footer-menu__item">
+                                <a class="footer-menu__link" href="https://admgor.nnov.ru/Gorod/Simvolika-goroda" target="_self">О городе</a>
+                            </li>
+                            <li class="footer-menu__item">
+                                <a class="footer-menu__link" href="https://admgor.nnov.ru/rayon" target="_self">Районы</a>
+                            </li>
+                            <li class="footer-menu__item">
+                                <a class="footer-menu__link" href="https://admgor.nnov.ru/Municipalitet/Oficialnaya-osnova" target="_self">Муниципалитет</a>
+                            </li>
+                            <li class="footer-menu__item">
+                                <a class="footer-menu__link" href="https://admgor.nnov.ru/ZHitelyam" target="_self">Жителям</a>
+                            </li>
+                            <li class="footer-menu__item">
+                                <a class="footer-menu__link" href="https://admgor.nnov.ru/Biznesu" target="_self">Бизнесу</a>
+                        </li>
+                        <li class="footer-menu__item">
+                            <a class="footer-menu__link" href="https://admgor.nnov.ru/documents" target="_self">Документы</a>
+                        </li>
+                        <li class="footer-menu__item">
+                            <a class="footer-menu__link" href="https://admgor.nnov.ru/news/news" target="_self">Пресс-центр</a>
+                        </li>
+                        <li class="footer-menu__item">
+                            <a class="footer-menu__link" href="https://admgor.nnov.ru/cabinet/default/login-with-email" target="_self">Личный кабинет</a>
+                        </li>
+                        <li class="footer-menu__item">
+                            <a class="footer-menu__link" href="https://admgor.nnov.ru/search" target="_self">Поиск по сайту</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="footer-block">
+                    <div class="footer-menu__title">Дополнительная информация</div>
+                    <ul class="footer-menu">
+                        <li class="footer-menu__item">
+                            <a class="footer-menu__link" href="https://xn--b1acdfjbh2acclca1a.xn--p1ai/Municipalitet/Protivodeystvie-korrupcii" target="_blank">Противодействие коррупции</a>
+                        </li>
+                        <li class="footer-menu__item">
+                            <a class="footer-menu__link" href="https://нижнийновгород.рф/Informacionnaya-karta-sootvetstviya-sayta-trebovaniyam" target="_blank">Информационная карта соответствия сайта требованиям Федерального закона от 09.02.2009 №8-ФЗ</a>
+                        </li>
+                        <li class="footer-menu__item">
+                            <a class="footer-menu__link" href="https://нижнийновгород.рф/upload/getODA/depdoc104215.html" target="_blank">Об организации обработки персональных данных в администрации города Нижнего Новгорода</a>
+                        </li>
+                        <li class="footer-menu__item">
+                            <a class="footer-menu__link" href="https://admgor.nnov.ru/O-SMI" target="_self">О СМИ</a>
+                        </li>
+                        <li class="footer-menu__item">
+                            <a class="footer-menu__link" href="https://admgor.nnov.ru/sitemap.html" target="_self">Карта сайта</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom print-hide">
+            <div style="visibility: hidden;" class="footer-copyright">
+                <div class="footer-copyright__ico">
+                    <i class="icon-copy"></i>
+                </div>
+                <div class="footer-copyright__text">
+                    О сайте (условия размещения информации)<br>
+                    Официальный сайт администрации города Нижнего Новгорода
+                </div>
+            </div>
+            <ul class="footer-social">
+                <a class="footer-social__link" target="_blank" href="https://vk.com/nn_admgorod">
+                    <svg width="24" height="14" viewBox="0 0 24 14" xmlns="http://www.w3.org/2000/svg">
+                        <!-- VK иконка -->
+                    </svg>
+                </a>
+            </ul>
+        </div>
+    </div>
+    </footer>
+
+  <div class="right-panel-fix">
+    <span data-toggle="modal" data-target="#modalTechnicalSupport" class="btn btn-support">
+        <i class="icon-question"></i>
+    </span>
+  </div>
+
+
+
+
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
