@@ -183,63 +183,55 @@
         <div class="border p-4">
           <h2>Форма отправки обращения</h2>
           <p class="text-muted">Поля, отмеченные *, обязательны для заполнения.</p>
-
-          <form>
+      
+          <form id="appealForm" novalidate>
             <div class="mb-3">
               <label for="lastName" class="form-label">Фамилия*</label>
               <input type="text" class="form-control" id="lastName" placeholder="Введите фамилию" required>
+              <div class="invalid-feedback">Пожалуйста, введите фамилию.</div>
             </div>
-
+      
             <div class="mb-3">
               <label for="firstName" class="form-label">Имя*</label>
               <input type="text" class="form-control" id="firstName" placeholder="Введите имя" required>
+              <div class="invalid-feedback">Пожалуйста, введите имя.</div>
             </div>
-
+      
             <div class="mb-3">
               <label for="patronymic" class="form-label">Отчество</label>
               <input type="text" class="form-control" id="patronymic" placeholder="Введите отчество">
             </div>
-
+      
             <div class="mb-3">
               <label for="email" class="form-label">Email*</label>
               <input type="email" class="form-control" id="email" placeholder="Введите email" required>
+              <div class="invalid-feedback">Пожалуйста, введите корректный email.</div>
             </div>
-
-            <div class="mb-3">
-              <label for="confirmEmail" class="form-label">Повторите Email*</label>
-              <input type="email" class="form-control" id="confirmEmail" placeholder="Повторите email" required>
-            </div>
-
+      
             <div class="mb-3">
               <label for="phone" class="form-label">Телефон</label>
               <input type="tel" class="form-control" id="phone" placeholder="Введите телефон">
             </div>
-
+      
             <div class="mb-3">
               <label for="message" class="form-label">Текст обращения*</label>
-              <p class="text-muted">Функции стандартного копирования и вставки текста (Ctrl+C, Ctrl+V) в форме ввода обращения в Интернет-приемной отключены 
-                в целях обеспечения безопасности и целостности информации в соответствии с методическими рекомендациями рабочей группы при Администрации 
-                Президента Российской Федерации по координации и оценке работы с обращениями граждан и организаций.</p>
               <textarea class="form-control" id="message" rows="5" placeholder="Введите текст обращения" required></textarea>
+              <div class="invalid-feedback">Пожалуйста, введите текст обращения.</div>
             </div>
-
+      
             <div class="mb-3">
               <button type="button" class="btn btn-secondary">Добавить документ</button>
               <p class="text-muted">
-                Вы можете приложить дополнительные документы или материалы в электронной форме, более полно раскрывающие
-                суть Вашего обращения. Размер файла вложения не может превышать 10 Мб. (Общий объем прикрепленных файлов
-                не более - 25 Мб.) Для вложений допустимы следующие форматы файлов: docx, doc, xls, xlsx, ppt, pptx,
-                rtf, txt, pdf, jpeg.
+                Вы можете приложить дополнительные документы. Размер файла не более 10 Мб. Общий объем вложений не более 25 Мб.
               </p>
             </div>
-
+      
             <div class="mb-3 form-check">
-              <input class="form-check-input" type="checkbox" value="" id="termsAgreement" required>
-              <label class="form-check-label" for="termsAgreement">
-                С порядком приема и рассмотрения обращений ознакомлен(а)
-              </label>
+              <input class="form-check-input" type="checkbox" id="termsAgreement" required>
+              <label class="form-check-label" for="termsAgreement">С порядком приема ознакомлен(а)</label>
+              <div class="invalid-feedback">Вы должны согласиться с условиями.</div>
             </div>
-
+      
             <button type="submit" class="btn btn-primary">Отправить</button>
           </form>
         </div>
@@ -426,11 +418,10 @@
 
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/validator.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>
-
 
 </body>
 
