@@ -226,6 +226,9 @@ a:active {
 .col_2:hover {
     transform: scale(1.05);
 }
+.useful-sites {
+    padding-top: 15px;
+}
 
 /* Подвал сайта */
 
